@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="g_SUID" for="graph" attr.name="SUID" attr.type="double"/>
+  <key id="g_shared name" for="graph" attr.name="shared name" attr.type="string"/>
+  <key id="g_name" for="graph" attr.name="name" attr.type="string"/>
+  <key id="v_SUID" for="node" attr.name="SUID" attr.type="double"/>
+  <key id="v_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="v_id" for="node" attr.name="id" attr.type="string"/>
+  <key id="v_gen_01" for="node" attr.name="gen_01" attr.type="string"/>
+  <key id="v_shared_name" for="node" attr.name="shared_name" attr.type="string"/>
+  <key id="v_gene_type" for="node" attr.name="gene_type" attr.type="string"/>
+  <key id="e_SUID" for="edge" attr.name="SUID" attr.type="double"/>
+  <key id="e_shared name" for="edge" attr.name="shared name" attr.type="string"/>
+  <key id="e_shared interaction" for="edge" attr.name="shared interaction" attr.type="string"/>
+  <key id="e_name" for="edge" attr.name="name" attr.type="string"/>
+  <key id="e_interaction" for="edge" attr.name="interaction" attr.type="string"/>
+  <graph id="G" edgedefault="directed">
+    <data key="g_shared name"></data>
+    <data key="g_name"></data>
+    <node id="n0">
+      <data key="v_SUID">3178060</data>
+      <data key="v_name">13593</data>
+      <data key="v_id">3178060</data>
+      <data key="v_gen_01">Ebf3</data>
+      <data key="v_shared_name">13593</data>
+      <data key="v_gene_type">TF</data>
+    </node>
+    <node id="n1">
+      <data key="v_SUID">3178038</data>
+      <data key="v_name">228598</data>
+      <data key="v_id">3178038</data>
+      <data key="v_gen_01">Ebf4</data>
+      <data key="v_shared_name">228598</data>
+      <data key="v_gene_type">TF</data>
+    </node>
+    <node id="n2">
+      <data key="v_SUID">3178034</data>
+      <data key="v_name">13591</data>
+      <data key="v_id">3178034</data>
+      <data key="v_gen_01">Ebf1</data>
+      <data key="v_shared_name">13591</data>
+      <data key="v_gene_type">TF</data>
+    </node>
+    <edge source="n0" target="n1">
+      <data key="e_SUID">3178092</data>
+      <data key="e_shared name">13593 (interacts with) 228598</data>
+      <data key="e_shared interaction">interacts with</data>
+      <data key="e_name">13593 (interacts with) 228598</data>
+      <data key="e_interaction">interacts with</data>
+    </edge>
+    <edge source="n1" target="n0">
+      <data key="e_SUID">3178064</data>
+      <data key="e_shared name">228598 (interacts with) 13593</data>
+      <data key="e_shared interaction">interacts with</data>
+      <data key="e_name">228598 (interacts with) 13593</data>
+      <data key="e_interaction">interacts with</data>
+    </edge>
+    <edge source="n1" target="n2">
+      <data key="e_SUID">3178040</data>
+      <data key="e_shared name">228598 (interacts with) 13591</data>
+      <data key="e_shared interaction">interacts with</data>
+      <data key="e_name">228598 (interacts with) 13591</data>
+      <data key="e_interaction">interacts with</data>
+    </edge>
+    <edge source="n2" target="n1">
+      <data key="e_SUID">3178090</data>
+      <data key="e_shared name">13591 (interacts with) 228598</data>
+      <data key="e_shared interaction">interacts with</data>
+      <data key="e_name">13591 (interacts with) 228598</data>
+      <data key="e_interaction">interacts with</data>
+    </edge>
+  </graph>
+</graphml>
