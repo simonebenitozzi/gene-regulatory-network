@@ -41,7 +41,7 @@ Enjoy exploring and analyzing the gene regulatory network!
 
 ## Contributors
 
-- [Your Name]
-- [Other contributors, if applicable]
+- Simone Benitozzi
+- Christian Squadrito
 
 If you have any questions or suggestions, feel free to contact us.
